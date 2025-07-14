@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+.error {color: #FF0000;}
+</style>
+</head>
+<body align="center">
+<form action="thanks.php" method="post">
+<h1 align="center">REGISTRATION FORM</h1>
+<table>
+<tr>
+	<td>Registration id:</td>
+		<td><input type="text" name="id" id="id" required />
+					<span class="error"> *</span><br><br></td>
+</tr>
+<tr>
+	<td>name:</td>
+	<td><input type="text" name="name" id="name" required />
+					<span class="error"> *</span><br><br></td>
+</tr>
+<tr>
+   <td>Dept:</td>
+   <td><select name="dept" id="dept">
+  <option value="CSE">CSE</option>
+  <option value="IT">IT</option>
+  <option value="MECH">MECH</option>
+  <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="CIVIL">CIVIL</option></select>
+  <span class="error"> *</span><br><br></td>
+</tr>
+<tr>
+ <td>Year:</td>
+ <td><select name="year" id="year">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option></select><span class="error"> *</span><br><br></td>
+ </tr>
+<tr>
+	<td>password:</td>
+		<td><input type="password" name="password" id="password" required /><span class="error"> *</span><br><br></td>
+</tr>
+<tr>
+	<td><input type="submit" value="Register" id="Register"></td>
+</tr>
+<tr>
+	<td><p  align="center"><span class="error">* all fields are mandatory.</span></p></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

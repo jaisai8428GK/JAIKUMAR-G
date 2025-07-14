@@ -1,2 +1,2 @@
-# JAIKUMAR-G
-Internal Mark Management System Project
+# internalmarks_miniproject
+mini project on internal marks management system
