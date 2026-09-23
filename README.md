@@ -1,5 +1,3 @@
-Internal Mark Management System
-
 # Internal Mark Management System
 
 A simple and efficient web application for managing **students, subjects, and internal marks** using PHP and MySQL.
